@@ -1,0 +1,35 @@
+
+/* Stylesheet content from css/animal_List/animal_list.css in folder common */
+#list{
+	margin-top:10%;
+}
+#wildAnimals{
+	height:80px;
+	padding-top:30px;
+	font-style:italic;
+	font-weight:bold;
+}
+#wildAnimalsImg{
+	float:left;
+	margin-left:-4%;
+}
+.title{
+	padding-left:28%;
+	color:red;
+}
+#empty{
+	margin-top:50px;
+}
+
+.item {
+	background-color: white !important;
+	border-color: #fa982f !important;
+    
+	}
+	
+.item-divider {
+	border-color: white !important;
+    padding-top: 0px !important ;
+    padding-bottom: 2px !important;
+	
+}

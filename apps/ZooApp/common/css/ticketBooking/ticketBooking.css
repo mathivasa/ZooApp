@@ -1,0 +1,136 @@
+
+#ticketBody{
+ margin-top: -6%;
+}
+
+#ticketAdults{
+ margin: 10px;
+ margin-top: 15px
+}
+
+#adultName{
+ display: inline; 
+ float: left; 
+ clear: both;
+}
+
+#adultHead{
+ font-size: large;
+}
+
+#adultPara{
+ font-size: large; 
+ font-size: 14px
+}
+
+#adultTicket{
+ display: inline-block; 
+ text-align: center;
+ margin-left: 80px
+}
+
+#adultSubtractButton{
+ display: inline; 
+ color: blue;
+ width: 30px;
+ height: 30px
+}
+
+#adultInput{
+ display: inline; 
+ width: 20px
+}
+
+#adultAddButton{
+ display: inline; 
+ color: blue;
+ width: 30px;
+ height: 30px
+}
+
+#adultResult{
+ display: inline; 
+ float: right;
+}
+
+#ticketChild{
+ margin: 10px; 
+ margin-top: 50px
+}
+
+#childName{
+ display: inline; 
+ float: left; 
+ clear: both;
+}
+
+#childHead{
+ font-size: large;
+}
+
+#childPara{
+ font-size: large; 
+ font-size: 14px
+}
+
+#childTicket{
+ display: inline-block; 
+ margin-left: 85px
+}
+
+#childSubtractButton{
+ display: inline; 
+ color: blue;
+ width: 30px;
+ height: 30px
+}
+
+#childInput{
+ display: inline; 
+ width: 20px
+}
+
+#childAddButton{
+ display: inline; 
+ color: blue;
+ width: 30px;
+ height: 30px
+}
+
+#childResult{
+ display: inline; 
+ float: right;
+}
+
+#ticketHints{
+ display: block; 
+ float: left;
+ clear: both;
+ margin: 10px;
+}
+
+#totalWrapper{
+ margin: 10px;
+}
+
+#totalName{
+ display: inline; 
+ float: left; 
+ clear: both;
+}
+
+#totalHeader{
+ display: inline; 
+ float: left; 
+ clear: both;
+}
+
+#totalBody{
+ display: inline; 
+ float: right
+}
+
+#totalResult{
+ display: inline; 
+ float: right;
+}

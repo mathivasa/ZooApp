@@ -1,0 +1,62 @@
+<ion-view hide-nav-bar="true">
+    <ion-content class="padding">
+     <center><img style="height:120px; width:120px" id="icon" src="images/icon.png"></center>
+        <!-- User input for Registration -->
+          <form id="formAlign" name="valid">  
+        <div  id="register_div" ng-model="data">
+            
+            <label class="item item-input">
+                <i class="Nameicon ion-person-stalker" style="color:#fa982f"></i>
+                <ng-form name="firstnameform">
+                <input type="text" placeholder="First Name" ng-model="data.firstname" name="firstname" ng-pattern="firstnamepattern" required />
+            <span ng-show="firstnameform.firstname.$error.pattern" &&  id="namepattern">*please enter only alphabets *</span>
+                
+                </ng-form>
+            </label>
+            <br>
+        
+            <label class="item item-input">
+                <i class="Emailicon ion-ios-email" style="color:#fa982f"></i>
+                <ng-form name="emailform">
+                <input type="email" placeholder="Email" ng-model="data.email" name="email" ng-pattern="emailpattern" required />
+                
+                </ng-form>
+            </label>
+            <span ng-show="emailform.email.$error.pattern"  id="emailpattern">*please enter valid email id *</span>
+            <br>
+        
+            <label class="item item-input">
+            
+                <i class="mobilenumbericon ion-ios-telephone" style="color:#fa982f"></i>
+                <ng-form name="mobileform">
+                <input type="text" placeholder="Mobile Number" ng-model="data.mobilenumber" name="mobile" ng-pattern="mobilepattern" required />
+                
+                </ng-form>
+                
+            </label>
+            <span ng-show="mobileform.mobile.$error.pattern" id="mobilepattern" >*please enter valid mobile number *</span>
+            <br> 
+
+            <label class="item item-input" >
+                <i class="passwordicon ion-locked" style="color:#fa982f"></i>
+                <ng-form name="passwordform">
+                <input type="password" placeholder="Password" ng-model="data.password" name="password" ng-pattern="pwdpattern" required />
+                
+                </ng-form>
+            </label>
+            <span ng-show="passwordform.password.$error.pattern" id="pwdpattern">*please create password with minimum 8 characters with 1 UPPERCASE, 1 lowercase, 1 numeric *</span>
+            <br>   
+
+        </div>
+        </form>
+        <button class="button button-block button-positive" ng-click="Reg(data)" id="Regsubmit" ng-disabled="valid.$invalid">Submit</button>
+        
+        <div><br>
+            
+              
+            <center><a ng-click="already()">Already have an account?</a></center>
+    
+        </div>
+        
+    </ion-content>
+</ion-view>

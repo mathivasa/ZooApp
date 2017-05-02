@@ -1,0 +1,6 @@
+
+/* Stylesheet content from css/gallery/gallery.css in folder common */
+.gallery {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}

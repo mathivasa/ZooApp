@@ -1,0 +1,26 @@
+<ion-view>
+
+     <ion-content>	
+
+ 
+<div id="main">
+<video id="video" controls>
+  <source src="{{animalDetails.video}}" type="video/mp4">
+  <!-- <source src="movie.ogg" type="video/ogg"> -->
+
+</video>
+
+<div style="float:left;width:50%">
+<p><b>Name:</b>  {{animalDetails.name}}</p>
+<p><b>Scientific Name:</b>  {{animalDetails.scientificName}}</p>
+<p><b>Family Name:</b>  {{animalDetails.familyName}}</p>
+<p><b>Life Span:</b>  {{animalDetails.LifeSpan}}</p>
+
+</div>
+<div ><img src='{{animalDetails.src}}' id="image"></div>
+
+<p><b>Description:</b>{{animalDetails.detail}}</p>
+</div>
+
+</ion-content> 
+</ion-view>

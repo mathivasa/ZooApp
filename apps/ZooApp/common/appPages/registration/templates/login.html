@@ -1,0 +1,50 @@
+<ion-view view title="Login" hide-nav-bar="true">
+ <ion-content class="padding">
+ 
+
+  <center><img id="icon" src="images/icon.png"></center>
+  
+  
+
+
+  <form id="loginform" ng-model="data">
+
+   <!--Input box for Username-->
+
+  <label class="item item-input">
+            
+                <i class="mobilenumbericon ion-ios-telephone" style="color:#fa982f"></i>
+                <ng-form name="mobileform">
+                <input type="text"  id="Name" placeholder=" Mobile Number" ng-model="data.user" name="username" maxlength="10" />
+                </ng-form>
+                
+            </label>
+
+     
+   <br>
+
+   <!--Input box for Password-->
+
+ <label class="item item-input">
+                <i class="passwordicon ion-locked" style="color:#fa982f"></i>
+                <ng-form name="passwordform">
+                <input type="password" id="passw" placeholder=" Password" ng-model="data.password" name="password" />
+                
+                </ng-form>
+            </label>
+
+   <br>
+   
+   <!--Buttons for Login and Registration -->
+
+   <button ng-click="login(data)" class="button button-block button-positive">Login</button>
+   <button ng-click="signup()" class="button button-block button-assertive">Create an account</button><br>
+   
+   <!--Link for Forget Password -->
+
+   <center><a ng-click="forgetpw()" id="forgetPassword">Forgot my password?</a></center>
+
+  </form>
+</div>
+ </ion-content>
+</ion-view>

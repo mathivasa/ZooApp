@@ -1,0 +1,62 @@
+
+/* Stylesheet content from css/signUp/signUp.css in folder common */
+/*signup page*/
+
+#register_div{
+  margin-top: 10%;
+}
+
+#registerbody{
+  background-color: white;
+  background-repeat: no-repeat; 
+}
+
+#Regsubmit{
+  margin:auto;
+}
+
+.Nameicon{
+  font-size: 25px;
+  margin-right: 18px;
+}
+
+.Emailicon{
+  font-size: 25px;
+  margin-right: 18px;
+}
+
+.passwordicon{
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.mobilenumbericon{
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+#pwdpattern{
+  font-size: 15px;
+  color:red;
+}
+
+#emailpattern{
+  font-size: 15px;
+  color:red;
+}
+
+#namepattern{
+  font-size: 15px;
+  color:red;
+}
+
+#mobilepattern{
+  font-size: 15px;
+  color:red;
+}
+
+#ExistingUser{
+  color:red;
+  font-weight: bold;
+  font-size: 20px;
+}

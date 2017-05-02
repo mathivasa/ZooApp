@@ -1,0 +1,15 @@
+
+/* Stylesheet content from css/login/login.css in folder common */
+#icon {
+    height: 55%;
+    width: 55%;
+    margin-top: 2%;
+}
+
+#loginform {
+    margin-top: 5% ;
+}
+
+#forgetPassword {
+    color: black;
+}

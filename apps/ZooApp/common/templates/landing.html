@@ -1,0 +1,79 @@
+   <ion-side-menus enable-menu-with-back-views="true" >
+  <ion-side-menu-content>
+    <ion-nav-bar class="nav_Bar"  align-title="center">
+      
+ 
+      <ion-nav-buttons  side="left">
+  
+        <button style="color:white;" class="button button-icon btn-light ion-navicon" menu-toggle="left">
+        </button>
+
+      </ion-nav-buttons>
+    </ion-nav-bar>
+
+
+
+<ion-nav-view name="landing"></ion-nav-view>
+
+</ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar style="background-color:#fa982f;"  class="bar item-icon-left">
+   
+      <h1 style="color:white"  class="title center">Menu</h1>
+    </ion-header-bar>
+    <ion-content id="bg2">
+
+    
+      <ion-list>
+      <ion-item menu-close ng-click="nextdash()" class="item item-icon-left" >
+        <i class="icon ion-android-home" style="color:#fa982f"></i>
+         Home
+        </ion-item>
+        <ion-item menu-close ng-click="animals()" class="item item-icon-left">
+        <i class="icon ion-ios-paw" style="color:#fa982f"></i>
+         Animal List 
+        </ion-item> 
+        <ion-item menu-close ng-click="gallery()" class="item item-icon-left">
+        <i class="icon ion-images" style="color:#fa982f"></i>
+         Gallery
+        </ion-item>
+        <ion-item menu-close ng-click="takephoto()" class="item item-icon-left">
+        <i class="icon ion-camera" style="color:#fa982f "></i>
+         Photobooth
+        </ion-item>
+        <ion-item menu-close ng-click="ticketbooking()" class="item item-icon-left">
+         <i class="icon ion-ios-paper" style="color:#fa982f"></i>
+         Ticket Booking
+        </ion-item>
+        <ion-item menu-close ng-click="direction()" class="item item-icon-left">
+        <i class="icon ion-compass" style="color:#fa982f"></i>
+         Directions 
+        </ion-item> 
+        <ion-item menu-close ng-click="nearby()" class="item item-icon-left">
+        <i class="icon ion-coffee" style="color:#fa982f"></i>
+         Near by
+        </ion-item>
+        <!-- <ion-item menu-close href="#" class="item item-icon-left">
+        <i class="icon ion-settings" style="color:#fa982f"></i>
+         Account Settings
+        </ion-item> -->
+        <ion-item menu-close ng-click="feedback()" class="item item-icon-left">
+        <i class="icon ion-android-star" style="color:#fa982f"></i>
+         Feedback
+        </ion-item>
+        <ion-item menu-close ng-click="aboutus()" class="item item-icon-left">
+        <i class="icon ion-information-circled" style="color:#fa982f"></i>
+         About us
+        </ion-item>
+        <ion-item menu-close href="#" class="item item-icon-left">
+        <i class="icon ion-power" style="color:#fa982f"></i>
+         Logout
+        </ion-item>
+        
+
+      </ion-list>
+
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

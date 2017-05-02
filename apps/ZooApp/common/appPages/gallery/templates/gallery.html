@@ -1,0 +1,19 @@
+<ion-view> 
+
+     
+
+   
+        <ion-pane>
+   
+            
+            <ion-content ng-init="loadImages()" class="gallery" style="padding-top:20px;">
+           
+              <span ng-repeat="image in images" style="margin-left:13px">
+    <img src="{{image.src}}"   style="padding-bottom:10px;width:28%;height:18%" ng-click="selectImage($index)" >
+    
+  </span>
+
+            </ion-content>
+        </ion-pane>
+   
+    </ion-view>

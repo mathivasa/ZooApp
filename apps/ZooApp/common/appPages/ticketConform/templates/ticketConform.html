@@ -1,0 +1,85 @@
+<ion-view title="Ticket booking"> <ion-content
+ padding="'true'" class="has-header"> 
+
+
+<div class="list card">
+ <h3 style="text-align: center;">Ticket Booking</h3>
+ <div class="item item-avatar">
+  <img style="height:60px; width:60px" src="images/icon.png">
+  <h2>Zoo name-Al Ain</h2>
+  <p>Address-Dubai</p>
+  <p>Mail-alain@gmail.com</p>
+ </div>
+ <div class="list">
+   <div class="item item-divider"></div>
+   <div class="item"><form>Date: </span><input id="date" type="date" value="2011-01-13"/></form></div>
+   <div id="ticketBody">
+<div class="card">
+<div id="ticketAdults">
+<div id="adultName">
+<h3 id="adultHead">Adults</h3>
+<p id="adultPara">Adult Ticket price is 30.إ</p>
+</div>
+<div>
+
+{{adultTicket}}
+ </div>
+ <div id="adultResult">
+ <h3><i>PRICE:</i>{{adultPrice}}د.إ</h3>
+ </div>
+
+ </div>
+
+ <div id="ticketChild">
+
+ <div id="childName">
+ <h3 id="childHead">Child</h3>
+ <p id="childPara"> Child Ticket price is 10.إ</p>
+ </div>
+
+
+ <div>
+
+{{childTicket}}
+
+ </div>
+
+ <div id="childResult">
+ <h3><i>PRICE:</i>{{childPrice}}د.إ</h3>
+ </div>
+
+ </div>
+ <div id="ticketHints">
+ <h6>* Adult age: 12+ years</h6>
+ <h6>* Child age: 1-12 years</h6>
+ </div>
+ </div>
+
+
+ <div class="card">
+ <div id="totalWrapper">
+ <div id="totalName">
+ <h3 id="totalHeader">Total Amount</h3>
+ </div>
+ <div id="totalBody">
+ <h3 id="totalResult">{{total}}د.إ</h3>
+ </div>
+ <div ng-hide="IsVisible">
+ <button class="button button-block button-positive" value="Show Hide DIV" ng-click="conform()">Confirm</button>
+<button class="button button-block button-positive" ng-click="clear()">Delete</button> 
+</div>
+<div ng-show="IsVisible">
+<img src="images/barcode.jpg" style="width:80%;height:50%;padding-left:35px">
+</div>
+ </div>
+ </div>
+
+</div>
+
+</div>
+
+
+
+
+</ion-content> 
+</ion-view>

@@ -1,0 +1,17 @@
+
+#wildList{
+	height:80px;
+	padding-top:30px;
+	font-style:italic;
+	font-weight:bold;
+}
+#wildListImg{
+	float:left;
+}
+.title{
+	padding-left:40%;
+	color:red;
+}
+#empty{
+	margin-top:50px;
+}

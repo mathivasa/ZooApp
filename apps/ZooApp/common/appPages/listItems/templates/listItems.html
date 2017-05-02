@@ -1,0 +1,23 @@
+<ion-view> 
+<ion-content class="padding">
+
+<!-- <ion-header-bar class="bar-stable">
+     <h1 class="title">{{value}}</h1>
+      </ion-header-bar> -->
+      
+
+<div ng-repeat="itemlist in listItems" ng-show={{itemlist.category==value}}>
+<div class="item item-divider">
+ 
+
+<img ng-src="{{itemlist.src}}" id="wildList"/>
+
+ 
+
+<a class="item"  href="#/landing/animalDetails/{{itemlist.name}}">{{itemlist.name}}</a>
+
+
+</div>
+</div>
+
+</ion-content> </ion-view>

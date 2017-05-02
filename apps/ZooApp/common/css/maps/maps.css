@@ -1,0 +1,21 @@
+/* nearby page */
+
+#parking_restroom {
+	margin-top:10%;
+}
+
+ .overflow-scroll .scroll {
+	
+    padding-top:1%; 
+}
+
+
+
+.scroll {
+    height: 100%;
+}
+
+#map_canvas {
+    height: 100%;
+    width: 100%;
+}
